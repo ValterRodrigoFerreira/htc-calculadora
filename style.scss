@@ -29,8 +29,10 @@
     font-size: calculator-rem(48);
     border: 0;
     color: $white;
-    margin-left: 257px;
+
     margin-top: 40px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   &__display-result {
