@@ -142,10 +142,8 @@ table {
   height: 844px;
   background-color: #292626;
   border-radius: 40px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 .calculator__display-time {
   width: 375px;
   height: 44px;
@@ -156,11 +154,9 @@ table {
   border: none;
   border-radius: 30px;
 }
-
 .calculator__display {
   width: 100%;
 }
-
 .calculator__display-input {
   background-color: transparent;
   outline: transparent;
@@ -169,20 +165,16 @@ table {
   color: #ffffff;
   margin-top: 40px;
   width: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 .calculator__display-result {
   color: #969696;
   font-size: 3rem;
   margin-top: 41px;
 }
-
 .calculator__image {
   margin-top: 20px;
 }
-
 .calculator__line {
   width: 352px;
   height: 1px;
@@ -191,7 +183,6 @@ table {
   margin-left: 19px;
   margin-right: 19px;
 }
-
 .calculator__buttons--button {
   width: 73px;
   height: 75px;
@@ -202,49 +193,34 @@ table {
   font-size: 2.25rem;
   margin-top: 25px;
 }
-
 .calculator__buttons--button:hover {
   background-color: #818181;
 }
-
 .calculator__buttons--button-background-red {
   background-color: #ff5959;
 }
-
 .calculator__buttons--button-background-red:hover {
   background-color: #ff8c8c;
 }
-
 .calculator__buttons--button-color-green {
   color: #52df68;
 }
-
 .calculator__buttons--button-color-grey {
   color: #343434;
 }
-
 .calculator__buttons--button-color-background-green {
   background-color: #52df68;
 }
-
 .calculator__buttons-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 0 19px 0 19px;
 }
-
 .calculator__line-footer {
   width: 135px;
   height: 5px;
   margin: 20px 120px 8px 120px;
   background-color: #ffffff;
   border-radius: 5px;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
