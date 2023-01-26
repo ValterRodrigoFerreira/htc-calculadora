@@ -1,5 +1,14 @@
 @import "./css/_reset.scss";
 
+body {
+  background-color: slategrey;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: calculator-rem(56);
+}
+
 .calculator {
   width: 390px;
   height: 844px;
